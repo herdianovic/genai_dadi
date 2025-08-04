@@ -1,0 +1,55 @@
+[
+  {
+    "v": 8,
+    "name": "Test API",
+    "folders": [],
+    "requests": [
+      {
+        "v": "14",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "body": "{\n  \"prompt\": \"Haloo Google Gemini dari Hoppscotch!\"\n}",
+          "contentType": "application/json"
+        },
+        "name": "Generate Text",
+        "method": "POST",
+        "params": [],
+        "headers": [],
+        "endpoint": "http://localhost:3000/generate-text",
+        "responses": {},
+        "testScript": "",
+        "preRequestScript": "",
+        "requestVariables": []
+      },
+      {
+        "v": "14",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "body": null,
+          "contentType": null
+        },
+        "name": "Generate Text from Uploaded Image",
+        "method": "POST",
+        "params": [],
+        "headers": [],
+        "endpoint": "https://echo.hoppscotch.io",
+        "responses": {},
+        "testScript": "",
+        "preRequestScript": "",
+        "requestVariables": []
+      }
+    ],
+    "auth": {
+      "authType": "inherit",
+      "authActive": true
+    },
+    "headers": [],
+    "_ref_id": "coll_mdq448zx_a226df7d-0801-495b-8967-cdcba76e25b1"
+  }
+]
